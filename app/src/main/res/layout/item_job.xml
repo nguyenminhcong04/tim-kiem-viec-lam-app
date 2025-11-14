@@ -38,7 +38,7 @@
                 android:id="@+id/companyName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="BacHa Software"
+                android:text="Software"
                 android:textSize="12sp"
                 android:textColor="#191818"/>
         </LinearLayout>

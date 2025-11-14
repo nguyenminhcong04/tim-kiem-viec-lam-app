@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/companyLogo"
-            android:text="BacHa Software"
+            android:text="Software"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             android:textColor="@color/black"

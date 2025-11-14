@@ -3,7 +3,7 @@
     <data>
         <variable
             name="userViewModel"
-            type="com.cuongpq.basemvvm.ui.xample.user.UserViewModel" />
+            type="com.example.apptuyendungvieclam.ui.xample.user.UserViewModel" />
         <import type="android.view.View"/>
     </data>
     <RelativeLayout

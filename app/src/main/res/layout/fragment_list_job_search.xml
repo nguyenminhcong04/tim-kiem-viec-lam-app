@@ -6,7 +6,7 @@
     <data>
         <variable
             name="listJobSearchViewModel"
-            type="com.cuongpq.basemvvm.ui.candidate.list_job.ListJobSearchViewModel" />
+            type="com.example.apptuyendungvieclam.ui.candidate.list_job.ListJobSearchViewModel" />
     </data>
         <LinearLayout
             android:layout_width="match_parent"

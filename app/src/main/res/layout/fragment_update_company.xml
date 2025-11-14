@@ -5,7 +5,7 @@
     <data>
         <variable
             name="updateCompanyViewModel"
-            type="com.cuongpq.basemvvm.ui.employer.company.update_company.UpdateCompanyViewModel"/>
+            type="com.example.apptuyendungvieclam.ui.employer.company.update_company.UpdateCompanyViewModel"/>
         <import type="android.view.View"/>
     </data>
        <LinearLayout

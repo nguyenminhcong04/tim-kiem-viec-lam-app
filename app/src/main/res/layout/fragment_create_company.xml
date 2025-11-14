@@ -5,7 +5,7 @@
     <data>
          <variable
              name="createCompanyViewModel"
-             type="com.cuongpq.basemvvm.ui.employer.company.create_company.CreateCompanyViewModel" />
+             type="com.example.apptuyendungvieclam.ui.employer.company.create_company.CreateCompanyViewModel" />
     </data>
 
     <LinearLayout

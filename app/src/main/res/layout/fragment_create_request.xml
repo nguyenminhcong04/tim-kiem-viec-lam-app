@@ -5,7 +5,7 @@
     <data>
          <variable
              name="createRequestViewModel"
-             type="com.cuongpq.basemvvm.ui.employer.create_job.create_request.CreateRequestViewModel" />
+             type="com.example.apptuyendungvieclam.ui.employer.create_job.create_request.CreateRequestViewModel" />
          <import type="android.view.View"/>
     </data>
     <ScrollView

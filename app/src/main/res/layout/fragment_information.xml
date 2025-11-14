@@ -5,7 +5,7 @@
     <data>
         <variable
             name="informationViewModel"
-            type="com.cuongpq.basemvvm.ui.account.information.InformationViewModel" />
+            type="com.example.apptuyendungvieclam.ui.account.information.InformationViewModel" />
     </data>
 
     <ScrollView
@@ -35,7 +35,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/imAvatar"
                     android:layout_centerHorizontal="true"
-                    android:text="Nguyễn Đào Quang Huy"
+                    android:text="Nhà Tuyển Dụng"
                     android:textSize="20dp"
                     android:textColor="#000000"
                     android:textStyle="bold" />
@@ -43,7 +43,7 @@
                     android:id="@+id/tvUserEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="huynguyen180401@gmail.com"
+                    android:text="tuyendung@gmail.com"
                     android:layout_below="@+id/tvUserName"
                     android:layout_centerHorizontal="true"
                     android:textSize="13dp"

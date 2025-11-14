@@ -5,7 +5,7 @@
     <data>
          <variable
              name="profileViewModel"
-             type="com.cuongpq.basemvvm.ui.account.ProfileViewModel" />
+             type="com.example.apptuyendungvieclam.ui.account.ProfileViewModel" />
         <import type="android.view.View"/>
     </data>
     <LinearLayout
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imAvatar"
                 android:layout_centerHorizontal="true"
-                android:text="Nguyễn Đào Quang Huy"
+                android:text="nhà tuyển dụng"
                 android:textSize="20dp"
                 android:textColor="#D8D2D2"
                 android:textStyle="bold" />
@@ -56,7 +56,7 @@
                 android:id="@+id/tvUserEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="huynguyen180401@gmail.com"
+                android:text="nhatuyendung@gmail.com"
                 android:layout_below="@+id/tvUserName"
                 android:layout_centerHorizontal="true"
                 android:textSize="13dp"

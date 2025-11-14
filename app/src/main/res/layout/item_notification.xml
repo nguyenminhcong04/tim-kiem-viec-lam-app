@@ -11,7 +11,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="8"
-            android:text="Huy Tu đã ứng tuyển công việc Android Developer"
+            android:text="Bạn đã ứng tuyển công việc Android Developer"
             android:padding="8dp"
             android:layout_marginLeft="10dp"
             android:textStyle="bold"

@@ -5,10 +5,10 @@
     <data>
         <variable
             name="loginViewModel"
-            type="com.cuongpq.basemvvm.ui.login.signin.LoginViewModel" />
+            type="com.example.apptuyendungvieclam.ui.login.signin.LoginViewModel" />
         <variable
             name="userLoginDetails"
-            type="com.cuongpq.basemvvm.data.model.UserLogInDetails" />
+            type="com.example.apptuyendungvieclam.data.model.UserLogInDetails" />
         <import type="android.view.View"/>
     </data>
 
@@ -28,8 +28,8 @@
 
                 <ImageView
                     android:id="@+id/imgLogo"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
+                    android:layout_width="157dp"
+                    android:layout_height="112dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="50dp"
                     android:src="@drawable/splash_img_1" />

@@ -4,7 +4,7 @@
     <data>
          <variable
              name="payerActivityViewModel"
-             type="com.cuongpq.basemvvm.ui.payer.PayerActivityViewModel" />
+             type="com.example.apptuyendungvieclam.ui.payer.PayerActivityViewModel" />
     </data>
 
     <RelativeLayout

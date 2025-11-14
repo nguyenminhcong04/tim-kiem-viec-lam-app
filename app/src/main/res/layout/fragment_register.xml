@@ -5,7 +5,7 @@
     <data>
         <variable
             name="registerViewModel"
-            type="com.cuongpq.basemvvm.ui.login.signup.RegisterViewModel"/>
+            type="com.example.apptuyendungvieclam.ui.login.signup.RegisterViewModel"/>
         <import type="android.view.View"/>
     </data>
     <LinearLayout

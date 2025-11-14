@@ -5,7 +5,7 @@
     <data>
         <variable
             name="noticifiViewModel"
-            type="com.cuongpq.basemvvm.ui.noticification.NotificationViewModel" />
+            type="com.example.apptuyendungvieclam.ui.noticification.NotificationViewModel" />
         <import type="android.view.View"/>
     </data>
 

@@ -6,7 +6,7 @@
     <data>
          <variable
              name="myJobViewModel"
-             type="com.cuongpq.basemvvm.ui.employer.job.my_job.MyJobViewModel" />
+             type="com.example.apptuyendungvieclam.ui.employer.job.my_job.MyJobViewModel" />
         <import type="android.view.View"/>
     </data>
     <RelativeLayout

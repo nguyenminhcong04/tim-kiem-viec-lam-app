@@ -6,7 +6,7 @@
     <data>
         <variable
             name="employerMainViewModel"
-            type="com.cuongpq.basemvvm.ui.employer.EmployerMainViewModel" />
+            type="com.example.apptuyendungvieclam.ui.employer.EmployerMainViewModel" />
         <import type="android.view.View"/>
     </data>
 

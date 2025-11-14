@@ -1,36 +1,27 @@
 {
   "project_info": {
-    "project_number": "302244955554",
-    "project_id": "recruitmentapp-6161d",
-    "storage_bucket": "recruitmentapp-6161d.appspot.com"
+    "project_number": "1043261113746",
+    "firebase_url": "https://apptimviec-3b42e-default-rtdb.firebaseio.com",
+    "project_id": "apptimviec-3b42e",
+    "storage_bucket": "apptimviec-3b42e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:302244955554:android:fa950d030d06c952049efb",
+        "mobilesdk_app_id": "1:1043261113746:android:4898e4bd0ec758db1bed4b",
         "android_client_info": {
-          "package_name": "com.cuongpq.basemvvm"
+          "package_name": "com.example.apptuyendungvieclam"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "302244955554-e1osftem6j0vaclsmi0lm8dpossqj46b.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDQl0sW7-he7-VEAMNavXQ7O9piNy2C7Pc"
+          "current_key": "AIzaSyBxt6tXCSOg2T5YjcxIGAlBy4XqMWSPu6c"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "302244955554-e1osftem6j0vaclsmi0lm8dpossqj46b.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

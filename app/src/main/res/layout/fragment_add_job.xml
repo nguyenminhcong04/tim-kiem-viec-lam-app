@@ -3,7 +3,7 @@
     <data>
           <variable
               name="addJobViewModel"
-              type="com.cuongpq.basemvvm.ui.employer.create_job.create_description.AddJobViewModel" />
+              type="com.example.apptuyendungvieclam.ui.employer.create_job.create_description.AddJobViewModel" />
           <import type="android.view.View"/>
     </data>
 

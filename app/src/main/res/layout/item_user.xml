@@ -3,7 +3,7 @@
     <data>
         <variable
             name="user"
-            type="com.cuongpq.basemvvm.data.model.UserExample" />
+            type="com.example.apptuyendungvieclam.data.model.UserExample" />
     </data>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"

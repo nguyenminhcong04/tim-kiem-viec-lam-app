@@ -9,7 +9,7 @@
             android:id="@+id/tvQuestion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Em có người yêu chưa ?"
+            android:text="Em đã đi làm chưa ?"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:paddingLeft="15dp"

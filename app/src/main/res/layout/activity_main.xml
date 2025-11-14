@@ -3,7 +3,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.cuongpq.basemvvm.ui.xample.MainViewModel" />
+            type="com.example.apptuyendungvieclam.ui.xample.MainViewModel" />
         <import type="android.view.View"/>
     </data>
     <RelativeLayout
@@ -13,7 +13,7 @@
             android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-        <com.cuongpq.basemvvm.ui.customview.ProgressRelative
+        <com.example.apptuyendungvieclam.ui.customview.ProgressRelative
             android:layout_width="match_parent"
             android:visibility="@{viewModel.isLoading() ? View.VISIBLE : View.GONE}"
             android:layout_height="match_parent">
@@ -21,6 +21,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true" />
-        </com.cuongpq.basemvvm.ui.customview.ProgressRelative>
+        </com.example.apptuyendungvieclam.ui.customview.ProgressRelative>
     </RelativeLayout>
 </layout>

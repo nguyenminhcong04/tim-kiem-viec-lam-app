@@ -5,7 +5,7 @@
     <data>
        <variable
            name="createStatusViewModel"
-           type="com.cuongpq.basemvvm.ui.employer.create_job.create_status.CreateStatusViewModel" />
+           type="com.example.apptuyendungvieclam.ui.employer.create_job.create_status.CreateStatusViewModel" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"

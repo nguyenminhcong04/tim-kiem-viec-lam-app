@@ -15,5 +15,5 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "BaseMVVM"
+rootProject.name = "AppTuyenDungViecLam"
 include ':app'
