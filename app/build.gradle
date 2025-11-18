@@ -17,6 +17,15 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
+
+        // 1. Đọc các biến từ local.properties (nếu không tồn tại thì gán rỗng)
+        def stripeSecretKey = project.properties["STRIPE_SECRET_KEY"] ?: ""
+        def stripePublishableKey = project.properties["STRIPE_PUBLISHABLE_KEY"] ?: ""
+
+        // 2. Định nghĩa các biến này trong BuildConfig để code Kotlin có thể sử dụng
+        // Ví dụ: BuildConfig.STRIPE_SECRET_KEY
+        buildConfigField "String", "STRIPE_SECRET_KEY", "\"${stripeSecretKey}\""
+        buildConfigField "String", "STRIPE_PUBLISHABLE_KEY", "\"${stripePublishableKey}\""
     }
 
     buildTypes {
@@ -117,4 +126,9 @@ dependencies {
     implementation 'com.stripe:stripe-java:20.77.0'
     implementation 'com.stripe:stripe-android:17.2.0'
     implementation ("com.android.volley:volley:1.2.1")
+
+    // START: Thêm thư viện Facebook Login SDK
+    implementation 'com.facebook.android:facebook-login:17.0.0' // Sử dụng phiên bản ổn định mới nhất (vd: 17.0.0)
+    // END: Thêm thư viện Facebook Login SDK
+
 }

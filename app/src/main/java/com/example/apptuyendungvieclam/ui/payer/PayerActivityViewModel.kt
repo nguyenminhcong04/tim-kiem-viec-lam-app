@@ -13,6 +13,7 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.util.concurrent.Executor
 import javax.inject.Inject
+import com.example.apptuyendungvieclam.BuildConfig
 
 class PayerActivityViewModel @Inject constructor(
     appDatabase: AppDatabase,
@@ -20,8 +21,8 @@ class PayerActivityViewModel @Inject constructor(
     scheduler: Executor
 ) : BaseViewModel<PayerActivityCallBack>(appDatabase, interactCommon, scheduler) {
 
-    private var SECRET_KEY : String = "YOUR_STRIPE_SECRET_KEY_HERE"
-    private var PUBLISH_KEY : String = "YOUR_STRIPE_PUBLISHABLE_KEY_HERE"
+    private var SECRET_KEY : String = BuildConfig.STRIPE_SECRET_KEY
+    private var PUBLISH_KEY : String = BuildConfig.STRIPE_PUBLISHABLE_KEY
     private var customerID: String? = null
     private var EphericalKey: String? = null
     private var ClientSecret: String? = null
